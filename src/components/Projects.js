@@ -32,7 +32,7 @@ export default function Projects() {
         </div>
       </div>
 
-    <img className='projects--squigglysvg' src={squigglySVG} alt='' />
+
 
       <div className='projects--card'>
         <h2>Shopping Cart project</h2>
@@ -46,7 +46,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <img className='projects--squigglysvg' src={squigglySVG} alt='' />
+
 
       <div className='projects--card'>
         <h2>Memorycard Game</h2>
@@ -60,7 +60,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <img className='projects--squigglysvg' src={squigglySVG} alt='' />
+
 
       <div className='projects--card'>
         <h2>iPhone Calculator Clone</h2>
