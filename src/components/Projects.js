@@ -19,7 +19,7 @@ export default function Projects() {
       <h1 id='projects'>Projects</h1>
 
       <div className='projects--card'>
-        <h2>Social Media Clone</h2>
+        <h2>momentSnap</h2>
         <img className='projects--demo' src={socmediaFig} alt='website-demo' />
         <div className='projects--leftcol'>
           <p>This application is a complete photo-sharing social clone that incorporates Firebase as its backend technology and employs React, ReactRouter, and CSS for its frontend development. It allows users to upload images along with captions and also enables them to like and comment on posts made by other users.</p>
