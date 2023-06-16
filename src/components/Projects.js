@@ -28,6 +28,7 @@ export default function Projects() {
             <img className='tech--img' src={firebaseSVG} alt='' />
           </div>
           <a href='https://github.com/xeniakadar/soc-clone' target="_blank"><button>Repository</button></a>
+          <a href='https://xeniakadar.github.io/soc-clone/' target="_blank"><button>Live Site</button></a>
 
         </div>
       </div>
@@ -43,6 +44,7 @@ export default function Projects() {
             <img className='tech--img' src={reactSVG} alt='' />
           </div>
           <a href='https://github.com/xeniakadar/project-shopping-cart' target="_blank"><button>Repository</button></a>
+          <a href='https://xeniakadar.github.io/project-shopping-cart/' target="_blank"><button>Live Site</button></a>
         </div>
       </div>
 

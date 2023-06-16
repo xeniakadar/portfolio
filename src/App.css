@@ -500,7 +500,7 @@ h1.navbar--logo {
 }
 
 .projects--container button {
-  background-color: #b18893;
+  background-color: #b0ccfa;
   font-family: Montserrat;
   border: none;
   padding: 0.5em;
@@ -511,6 +511,9 @@ h1.navbar--logo {
   margin-top: 1em;
   cursor: pointer;
   transition: all .2s ease-in-out;
+  margin-right: 1em;
+  /* display: block; */
+  text-decoration: none;
 }
 
 .projects--container button:hover {
