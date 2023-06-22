@@ -22,7 +22,7 @@ export default function Projects() {
         <h2>momentSnap</h2>
         <img className='projects--demo' src={socmediaFig} alt='website-demo' />
         <div className='projects--leftcol'>
-          <p>This application is a complete photo-sharing social clone that incorporates Firebase as its backend technology and employs React, ReactRouter, and CSS for its frontend development. It allows users to upload images along with captions and also enables them to like and comment on posts made by other users.</p>
+          <p>This application is a complete photo-sharing social clone that incorporates Firebase as its backend technology and employs React, ReactRouter, and CSS for its frontend development. I also used the mobile-first CSS approach to design the app's layout. It allows users to upload images along with captions and also enables them to like and comment on posts made by other users.</p>
           <div className='projects--tech'>
             <img className='tech--img' src={reactSVG} alt='' />
             <img className='tech--img' src={firebaseSVG} alt='' />
@@ -36,7 +36,7 @@ export default function Projects() {
 
 
       <div className='projects--card'>
-        <h2>Shopping Cart project</h2>
+        <h2>LIQR - The Shopping Cart Project</h2>
         <img className='projects--demo' src={shoppingcartGif} alt='website-demo' />
         <div className='projects--leftcol'>
           <p>This is a fake online store specializing in water bottles. It is a frontend-only application constructed using React, React Router, and CSS. Users have the ability to explore the available products, add items to their shopping cart, and remove them as well. Additionally, users can take advantage of free shipping by signing up for the (fictional) mailing list.</p>
