@@ -12,6 +12,8 @@ import jsSVG from './images/js.svg';
 import reactSVG from './images/react.svg';
 import firebaseSVG from './images/firebase.svg';
 import openAISVG from './images/openai.svg';
+import tailwindSVG from './images/tailwind.svg';
+import headlessPNG from './images/headless.png'
 
 export default function Projects() {
   return (
@@ -25,11 +27,13 @@ export default function Projects() {
         <div className='projects--leftcol'>
           <p>This application is a complete photo-sharing social clone that incorporates Firebase as its backend technology and employs React, ReactRouter, and CSS for its frontend development, using the mobile-first design approach.
             It allows users to upload images along with captions and also enables them to like and comment on posts made by other users.
-            Additionally, the website uses the openAI API to write captions in response to user prompts.</p>
+            Additionally, the website uses the openAI API to write captions in response to user prompts. Additionally, I used Tailwind CSS and Headless UI to create a better and more responsive interface.</p>
           <div className='projects--tech'>
             <img className='tech--img' src={reactSVG} alt='' />
             <img className='tech--img' src={firebaseSVG} alt='' />
             <img className='tech--img' src={openAISVG} alt='' />
+            <img className='tech--img' src={tailwindSVG} alt='' />
+            <img className='tech--img' src={headlessPNG} alt='' />
           </div>
           <a href='https://github.com/xeniakadar/soc-clone' target="_blank"><button>Repository</button></a>
           <a href='https://xeniakadar.github.io/soc-clone/' target="_blank"><button>Live Site</button></a>

@@ -12,6 +12,7 @@ import npmSVG from './images/npm.svg';
 import topwaveSvg from './images/wave.svg';
 import bottomwaveSvg from './images/wave2.svg';
 import reduxSVG from './images/redux.svg'
+import tailwindSVG from './images/tailwind.svg';
 
 export default function About() {
   return (
@@ -48,6 +49,10 @@ export default function About() {
         <div className='about--tech-item'>
           <img className='about--tech--img' src={reduxSVG} alt='' />
          <h5>Redux</h5>
+        </div>
+        <div className='about--tech-item'>
+          <img className='about--tech--img' src={tailwindSVG} alt='' />
+         <h5>Tailwind CSS</h5>
         </div>
         <div className='about--tech-item'>
          <img className='about--tech--img' src={firebaseSVG} alt='' />
