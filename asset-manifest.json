@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1df49980.css",
-    "main.js": "/portfolio/static/js/main.17050153.js",
+    "main.js": "/portfolio/static/js/main.32468077.js",
     "static/media/memorycard.gif": "/portfolio/static/media/memorycard.2cafc50ab8e58b064369.gif",
-    "static/media/soc-media-clone.gif": "/portfolio/static/media/soc-media-clone.756d3d5b7124a47c6359.gif",
+    "static/media/soc-media-clone.gif": "/portfolio/static/media/soc-media-clone.06337ab1a659f78e5160.gif",
     "static/media/shoppingcart.gif": "/portfolio/static/media/shoppingcart.78012b8aac3139788b58.gif",
     "static/media/calculator.gif": "/portfolio/static/media/calculator.bc570e16bba22cc62c56.gif",
     "static/media/profile.jpeg": "/portfolio/static/media/profile.7dba30d7467e698062bc.jpeg",
+    "static/media/headless.png": "/portfolio/static/media/headless.2775aefc626243f23974.png",
     "static/media/react.svg": "/portfolio/static/media/react.598d90dd4f36234e376cbc6ccd571550.svg",
     "static/media/jest.svg": "/portfolio/static/media/jest.1ba09f96f00b224697295e3a7d351dfc.svg",
     "static/media/redux.svg": "/portfolio/static/media/redux.a907b9f98d324503c0c0d9ac2991eb03.svg",
@@ -20,6 +21,7 @@
     "static/media/firebase.svg": "/portfolio/static/media/firebase.8f69a13150a1594d8fb73df74f12b548.svg",
     "index.html": "/portfolio/index.html",
     "static/media/npm.svg": "/portfolio/static/media/npm.e95e6392f67f73c87a03d0eda8d384c7.svg",
+    "static/media/tailwind.svg": "/portfolio/static/media/tailwind.973c73e85d4daa24b257ba20298716c4.svg",
     "static/media/css.svg": "/portfolio/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "static/media/wave.svg": "/portfolio/static/media/wave.813e88a0230b0dcdcae741e317d12c42.svg",
@@ -28,10 +30,10 @@
     "static/media/wave2.svg": "/portfolio/static/media/wave2.818943b89e8405c54c8007b3c6dd9913.svg",
     "static/media/menu.svg": "/portfolio/static/media/menu.dde88d4cefbad937d2b8817ace90f200.svg",
     "main.1df49980.css.map": "/portfolio/static/css/main.1df49980.css.map",
-    "main.17050153.js.map": "/portfolio/static/js/main.17050153.js.map"
+    "main.32468077.js.map": "/portfolio/static/js/main.32468077.js.map"
   },
   "entrypoints": [
     "static/css/main.1df49980.css",
-    "static/js/main.17050153.js"
+    "static/js/main.32468077.js"
   ]
 }
