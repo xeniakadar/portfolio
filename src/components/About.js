@@ -13,6 +13,8 @@ import topwaveSvg from './images/wave.svg';
 import bottomwaveSvg from './images/wave2.svg';
 import reduxSVG from './images/redux.svg'
 import tailwindSVG from './images/tailwind.svg';
+import nodejsSVG from './images/nodejs.svg';
+import mongodbSVG from './images/mongodb.svg';
 
 export default function About() {
   return (
@@ -57,6 +59,14 @@ export default function About() {
         <div className='about--tech-item'>
          <img className='about--tech--img' src={firebaseSVG} alt='' />
           <h5>Firebase</h5>
+        </div>
+        <div className='about--tech-item'>
+         <img className='about--tech--img' src={nodejsSVG} alt='' />
+          <h5>Node.js</h5>
+        </div>
+        <div className='about--tech-item'>
+         <img className='about--tech--img' src={mongodbSVG} alt='' />
+          <h5>MongoDB</h5>
         </div>
         <div className='about--tech-item'>
           <img className='about--tech--img' src={jestSVG} alt='' />

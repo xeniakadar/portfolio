@@ -5,6 +5,7 @@ import shoppingcartGif from './images/projects/shoppingcart.gif';
 import socmediaFig from './images/projects/soc-media-clone.gif';
 import memorycardGif from './images/projects/memorycard.gif';
 import calculatorFig from './images/projects/calculator.gif';
+import mojoFig from './images/projects/mojo.gif';
 
 import htmlSVG from './images/html.svg';
 import cssSVG from './images/css.svg';
@@ -13,13 +14,32 @@ import reactSVG from './images/react.svg';
 import firebaseSVG from './images/firebase.svg';
 import openAISVG from './images/openai.svg';
 import tailwindSVG from './images/tailwind.svg';
-import headlessPNG from './images/headless.png'
+import headlessPNG from './images/headless.png';
+import nodejsSVG from './images/nodejs.svg';
+import mongodbSVG from './images/mongodb.svg';
 
+
+//ADD SVG FOR NODEJS MONGODB MONGOOSE? ADD THOSE TECH HERE AND ALSO IN THE ABOUT AREA, FINISH PROJECT CARD
 export default function Projects() {
   return (
     <div className='projects--container'>
 
       <h1 id='projects'>Projects</h1>
+
+      <div className='projects--card'>
+        <h2>Mojo Dojo Casa House (Members only)</h2>
+        <LazyLoadImage className='projects--demo' src={mojoFig} alt='website-demo' />
+        <div className='projects--leftcol'>
+          <p>This website is a platform that allows users to create profiles and log in securely. Users can post messages and view messages created by others. Everyone can see the posts, but only those who know the secret password can see who posted and when. Those with admin access can also delete posts. Users have the option to update their profiles, including their username, email, password, and avatar image. On their profile, they can also view all the messages that they have posted.</p>
+          <div className='projects--tech'>
+            <img className='tech--img' src={nodejsSVG} alt='' />
+            <img className='tech--img' src={mongodbSVG} alt='' />
+          </div>
+          <a href='https://github.com/xeniakadar/mojo-casa' target="_blank"><button>Repository</button></a>
+          <a href='https://mojo-casa-production.up.railway.app/' target="_blank"><button>Live Site</button></a>
+
+        </div>
+      </div>
 
       <div className='projects--card'>
         <h2>momentSnap</h2>
