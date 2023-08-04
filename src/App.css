@@ -561,6 +561,12 @@ h1.navbar--logo {
   cursor: pointer;
 }
 
+.mongo {
+  height: 6.5em;
+  position: relative;
+  top: 20px;
+}
+
 @media (min-width: 500px) {
 
   .projects--card {
@@ -592,6 +598,10 @@ h1.navbar--logo {
 
   .projects--leftcol {
     grid-area: info;
+  }
+
+  .projects--leftcol p span {
+    font-weight: 700;
   }
 
   .projects--card p {

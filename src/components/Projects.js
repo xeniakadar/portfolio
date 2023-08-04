@@ -18,8 +18,6 @@ import headlessPNG from './images/headless.png';
 import nodejsSVG from './images/nodejs.svg';
 import mongodbSVG from './images/mongodb.svg';
 
-
-//ADD SVG FOR NODEJS MONGODB MONGOOSE? ADD THOSE TECH HERE AND ALSO IN THE ABOUT AREA, FINISH PROJECT CARD
 export default function Projects() {
   return (
     <div className='projects--container'>
@@ -30,10 +28,10 @@ export default function Projects() {
         <h2>Mojo Dojo Casa House (Members only)</h2>
         <LazyLoadImage className='projects--demo' src={mojoFig} alt='website-demo' />
         <div className='projects--leftcol'>
-          <p>This website is a platform that allows users to create profiles and log in securely. Users can post messages and view messages created by others. Everyone can see the posts, but only those who know the secret password can see who posted and when. Those with admin access can also delete posts. Users have the option to update their profiles, including their username, email, password, and avatar image. On their profile, they can also view all the messages that they have posted.</p>
+          <p>This website is a platform that allows users to create profiles and log in securely. Users can post messages and view messages created by others. Everyone can see the posts, but only those who know the secret password can see who posted and when. Those with admin access can also delete posts. Users have the option to update their profiles, including their username, email, password, and avatar image. On their profile, they can also view all the messages that they have posted. This <span>Node.js</span> application was set up and configured using <span>Express.js</span>. <span>Passport.js</span> was used for authentication and session management and <span>bcrypt</span> was used as the password-hashing technology. Used <span>MongoDB</span> as the database for storing users and messages and used <span>Mongoose</span> to manage the databse operations.</p>
           <div className='projects--tech'>
             <img className='tech--img' src={nodejsSVG} alt='' />
-            <img className='tech--img' src={mongodbSVG} alt='' />
+            <img className='tech--img mongo' src={mongodbSVG} alt='' />
           </div>
           <a href='https://github.com/xeniakadar/mojo-casa' target="_blank"><button>Repository</button></a>
           <a href='https://mojo-casa-production.up.railway.app/' target="_blank"><button>Live Site</button></a>
@@ -45,9 +43,9 @@ export default function Projects() {
         <h2>momentSnap</h2>
         <LazyLoadImage className='projects--demo' src={socmediaFig} alt='website-demo' />
         <div className='projects--leftcol'>
-          <p>This application is a complete photo-sharing social clone that incorporates Firebase as its backend technology and employs React, ReactRouter, and CSS for its frontend development, using the mobile-first design approach.
+          <p>This application is a complete photo-sharing social clone that incorporates <span>Firebase</span> as its backend technology and employs <span>React</span>, <span>ReactRouter</span>, and CSS for its frontend development, using the mobile-first design approach.
             It allows users to upload images along with captions and also enables them to like and comment on posts made by other users.
-            Additionally, the website uses the openAI API to write captions in response to user prompts. Additionally, I used Tailwind CSS and Headless UI to create a better and more responsive interface.</p>
+            Additionally, the website uses the openAI API to write captions in response to user prompts. Additionally, I used <span>Tailwind CSS</span> and <span>Headless UI</span> to create a better and more responsive interface.</p>
           <div className='projects--tech'>
             <img className='tech--img' src={reactSVG} alt='' />
             <img className='tech--img' src={firebaseSVG} alt='' />
@@ -67,7 +65,7 @@ export default function Projects() {
         <h2>LIQR - The Shopping Cart Project</h2>
         <LazyLoadImage className='projects--demo' src={shoppingcartGif} alt='website-demo' />
         <div className='projects--leftcol'>
-          <p>This is a fake online store specializing in water bottles. It is a frontend-only application constructed using React, React Router, and CSS. Users have the ability to explore the available products, add items to their shopping cart, and remove them as well. Additionally, users can take advantage of free shipping by signing up for the (fictional) mailing list.</p>
+          <p>This is a fake online store specializing in water bottles. It is a frontend-only application constructed using <span>React</span>, <span>ReactRouter</span>, and CSS. Users have the ability to explore the available products, add items to their shopping cart, and remove them as well. Additionally, users can take advantage of free shipping by signing up for the (fictional) mailing list.</p>
           <div className='projects--tech'>
             <img className='tech--img' src={reactSVG} alt='' />
           </div>
