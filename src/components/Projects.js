@@ -6,6 +6,7 @@ import socmediaFig from './images/projects/soc-media-clone.gif';
 import memorycardGif from './images/projects/memorycard.gif';
 import calculatorFig from './images/projects/calculator.gif';
 import mojoFig from './images/projects/mojo.gif';
+import triptrekGif from './images/projects/triptrek.gif';
 
 import htmlSVG from './images/html.svg';
 import cssSVG from './images/css.svg';
@@ -24,6 +25,24 @@ export default function Projects() {
 
       <h1 id='projects'>Projects</h1>
 
+      <div className='projects--card'>
+        <h2>TripTrek</h2>
+        <LazyLoadImage className='projects--demo' src={triptrekGif} alt='website-demo' />
+        <div className='projects--leftcol'>
+          <p>This project showcases my skills in full-stack web development, including user authentication, database integration and <span>RESTful API</span> design. The app is a dynamic blogging platform where users can share their thoughts and experiences on a variety of topics ranging from beach escapades to city explorations. Each blog post is categorized under specific themes, offering a unique color-coded presentation for easy navigation. Users can engage further by leaving comments on individual posts, fostering a vibrant community of like-minded individuals. Built with <span>React</span>, the front-end provides a seamless and interactive user experience, enhanced by theme-context using <span>Tailwind CSS</span> and efficient API integrations in the backend. </p>
+          <div className='projects--tech'>
+            <img className='tech--img' src={reactSVG} alt='' />
+            <img className='tech--img' src={tailwindSVG} alt='' />
+            <img className='tech--img' src={nodejsSVG} alt='' />
+            <img className='tech--img mongo' src={mongodbSVG} alt='' />
+            <img className='tech--img' src={headlessPNG} alt='' />
+          </div>
+          <a href='https://github.com/xeniakadar/blog-api-client' target="_blank"><button>Frontend Repository</button></a>
+          <a href='https://github.com/xeniakadar/blog-api' target="_blank"><button>Backend Repository</button></a>
+          <a href='https://xeniakadar.github.io/blog-api-client/#/' target="_blank"><button>Live Site</button></a>
+
+        </div>
+      </div>
       <div className='projects--card'>
         <h2>Mojo Dojo Casa House (Members only)</h2>
         <LazyLoadImage className='projects--demo' src={mojoFig} alt='website-demo' />
